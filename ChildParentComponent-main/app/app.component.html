@@ -1,0 +1,4 @@
+lt;input type="text" [(ngModel)]="username"gt;
+lt;pgt;Username: {{ username }}lt;/pgt;
+<input type="text" [(ngModel)]="username" placeholder="Enter username">
+<button [disabled]="username === ''" (click)="onButtonClick()">Click Me</button>
